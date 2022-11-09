@@ -1,0 +1,97 @@
+:root {
+    --gray: #4a5568
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background: white;
+    height: 85px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2);
+}
+
+.navbar > h1 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.hero-container{
+    display: flex;
+    height: 470px;
+    background-image: url(icon/Boba\ Background.jpg);
+    background-size: 1500px;
+}
+
+.hero-container > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container h1 {
+    font-size: 60px;
+    width: 360px;
+}
+
+.hero-container p {
+    font-size: 30px;
+    color: var(--gray);
+}
+
+.hero-container > img {
+    height: 323px;
+    align-self: center;
+}
+
+#home {
+    height: 120vh;
+    padding-bottom: 30vh;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.landing  p {
+    font-size: 16px;
+    width: 800px;
+}
+
+.landing h2 {
+    font-size: 20px;
+    width: 800px;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer {
+    background: white;
+    height: 85px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+
+}
